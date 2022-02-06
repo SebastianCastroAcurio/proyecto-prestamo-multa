@@ -30,6 +30,10 @@ Para eliminar todas las tablas:
 
 `php artisan migrate:reset`
 
+Permite deshacer el último grupo de migraciones ejecutadas:
+
+`php artisan migrate:rollback`
+
 # BOOTSTRAP
 
 Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web.
